@@ -1,0 +1,117 @@
+*{
+padding:0px;
+margin :0px;
+border: 0;
+outline: 0;
+}
+
+b {color:red;}
+
+.a a {color:orange;}
+.a a:hover {background-color:green;
+color:yellow;}
+
+{
+color:red;background-color:blue;
+transition:1s all;
+}
+
+.sk {font-family: 'Ruslan Display', cursive;}
+
+.igr {font-family: 'Pattaya', sans-serif;}
+
+.zag {color:red;
+text-decoration:underline;}
+
+.p {text-align:justify;
+color:white;}
+
+.golos {color:white;}
+
+.image 
+{
+width:300px;
+height:300px;
+}
+
+#imga 
+{
+text-align:center;
+width:610px;
+}
+
+#imga img 
+{
+width: 300px;
+-webkit-transition-duration: 1s;
+-moz-transition-duration: 1s; 
+-o-transition-duration: 1s;
+opacity: 0.8;
+z-index: 1;
+margin:0;
+position: relative;
+}
+
+#imga img:hover 
+{ 
+-webkit-transform: scale( 1.5 );
+-moz-transform: scale( 1.5 );
+-o-transform: scale( 1.5 );
+box-shadow: 0px 0px 25px gray; 
+-webkit-box-shadow: 0px 0px 25px gray;
+-moz-box-shadow: 0px 0px 25px gray; 
+opacity: 1;
+z-index: 100;
+}
+
+#gl 
+{
+overflow:hidden;
+}
+#gl img 
+{
+-moz-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+-webkit-transition: all 1s ease-out;  
+ }
+#gl img:hover
+{
+-webkit-transform: scale(1.3);
+-moz-transform: scale(1.3);
+-o-transform: scale(1.3);
+}
+
+.im ul
+{
+background:#000;
+width:125px;
+float: left;
+list-style: none;
+border-right:8px solid black;
+}
+
+.im ul li{ height:75px; }
+    
+
+#cp{
+  width:500px; 
+  height:300px; 
+  overflow:hidden;
+  float:left;
+  }
+
+.im{
+  width:633px;
+  height:300px;
+  border:8px solid black;
+  margin:0px auto;
+  }
+
+a:hover {text-decoration:underline;}
+a {font-family:Lee Toscanini;
+color:red;text-decoration:none;}
+
+body {font-family: 'Caveat', cursive;
+cursor: url(../img/new_pointer.cur),auto,default;
+background-size: cover;
+background:url("../img/u.png") no-repeat center top fixed;}

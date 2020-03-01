@@ -1,0 +1,27 @@
+@media screen and(max-width: 760px; max-width:958px;) {
+.zag, .spisok, .menu, .golos {width:80%;}
+.p {width:90%;}
+.image {width:95%}
+}
+
+@media screen and(min-width: 960px max-width:1198px) {
+.zag, .spisok, .menu, .golos {width:90%;}
+.p {width:90%}
+.imgage {width:100%;}
+}
+
+@media screen and(min-width: 1200px) {
+.zag, .spisok, .menu, .golos {width:110%;}
+.p, .image {width:100%;}
+}
+.on {color:white;}
+
+@media screen and(min-width: 360px; max-width:758px;) {
+.zag, .spisok, .menu, .golos {width:70%;}
+.p {width:80%;}
+.imgage {width:85%;}
+}
+
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap');

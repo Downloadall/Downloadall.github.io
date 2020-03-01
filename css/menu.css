@@ -1,0 +1,82 @@
+ul li a
+{
+text-decoration:none;
+}
+.menu ul li 
+{
+color:#01FC41;font-family:sue vermeer;
+list-style-image:none;
+}
+.menu ul li a:hover 
+{
+color:blue;
+transition:0.5s all;
+background-color:#b05800;
+font-size:110%;
+}
+
+ol li a {text-decoration:none;}
+ol li a:hover {color:#800080;
+font-size:110%;
+transition:0.5s all;}
+
+#menu
+{
+width:500px;
+height:59px;
+}
+#menu ul
+{
+margin:0 auto;
+width:500px;
+}
+#menu li
+{
+display:block;
+float:left;
+height:59px;
+line-height:59px;
+}
+#menu li a
+{
+display:block;
+float:left;
+color:#ff2400;
+text-transform:uppercase;
+font-size:11px;
+font-weight:bold;
+line-height:59px;
+text-decoration:none;
+padding:0 20px;				
+}
+#menu li a:hover
+{
+color:#0000CD;
+background-color:#FF8C00;
+transition:1s all;
+}
+#menu li a.current
+{
+display:block;
+float:left;
+background:url(images/2.jpg) no-repeat bottom;
+color:#fff;
+text-transform:uppercase;
+font-size:11px;
+font-weight:bold;
+line-height:59px;
+text-decoration:none;
+padding:0 20px;	
+}
+#menu li a:hover.current{
+color:#fff;
+}
+
+.spisok {color:#234DC1;font-family:dodo casals;}
+
+#vk ul li a 
+{
+list-style-image:url(img/vk.ico);
+}
+.silka ul li a {color:green;}
+.silka ul li a:hover 
